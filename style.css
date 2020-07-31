@@ -22,9 +22,14 @@ html{
     border-color: #d5d5d5;
 }
 
-.dropdown-toggle:active , .dropdown-toggle:focus{
+.dropdown-toggle:active,.dropdown-toggle:focus{
     border: none!important;
     outline: none!important;
+}
+
+.dropdown-toggle:focus{
+    border-color: #1DE9B6;
+    border: 1.5px solid #1DE9B6;
 }
 
 .dropdown-menu{
@@ -61,3 +66,40 @@ html{
 .dropdown-menu::-webkit-scrollbar-thumb:hover {
     background-color: #c2c2c2;
 }
+
+
+/* meseage */
+#AppClientTaskPanel{
+    border-radius: 8px !important;
+    background-color: #ffffff!important;
+    border-top: 9px solid rgb(255, 158, 0)!important;
+    border-left: 1px solid #dddd!important;
+    border-right: 1px solid #dddd!important;
+    border-bottom: 1px solid #dddd!important;
+    padding: 25px!important;
+    -webkit-box-shadow:none !important;
+            box-shadow:none !important;
+  }
+  #AppClientTaskPanel p{
+    margin: 0 0 15px !important;
+    color: #2f2f2f!important;
+  }
+  #AppClientTaskPanel div{
+    color: #4c4c4c!important;
+    text-align: justify!important;
+  }
+  #AppClientTaskPanel div button{
+    font-size: 120%!important;
+    width: 100%!important;
+    margin: 25px 0 0!important;
+    padding: 5px!important;
+    border: none!important;
+    color: #fff!important;
+    background: rgb(15, 108, 227);
+    border-radius: 20px!important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  #AppClientTaskPanel div button:hover{
+    opacity: 0.5!important;       
+  }
