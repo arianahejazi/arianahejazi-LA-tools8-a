@@ -101,6 +101,12 @@ html{
     opacity: 0.5!important;
 }
 
+.btn-danger,.btn-danger:hover,.btn-danger.active:focus,.btn-danger.active:active {
+    color: #fff!important;
+    background-color: #ffff!important;
+    border: 2px solid #ffacaa!important;
+}
+
 /* meseage */
 #AppClientTaskPanel{
     border-radius: 8px !important;
