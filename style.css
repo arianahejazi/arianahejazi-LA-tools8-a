@@ -28,7 +28,6 @@ html{
 }
 
 .dropdown-toggle:focus{
-    border-color: #1DE9B6;
     border: 1.5px solid #1DE9B6;
 }
 
@@ -43,9 +42,14 @@ html{
 }
 
 .dropdown-menu li:last-child{
-    border-bottom: none;
+    border-bottom: none!important;
 }
-  
+
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background-color: #ffffff;
+    border: 1.5px solid #1DE9B6;
+}
+
 /* custom scrollbar */
 .dropdown-menu::-webkit-scrollbar {
     width: 20px;
