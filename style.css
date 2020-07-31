@@ -1,3 +1,4 @@
+
 html{
     scroll-behavior: smooth!important;
 }
@@ -34,6 +35,8 @@ html{
 .dropdown-menu{
     border: 1px solid #ddd!important;
     border-radius: 30px!important;
+    height: 220;
+    overflow: scroll;
 }
 
 .dropdown-menu li{
