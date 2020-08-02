@@ -83,7 +83,8 @@ html{
     padding: 21px 23px!important;
     width: 80px!important;
     height: 80px!important;
-    box-shadow: 2px 2px 4px 1px #959595!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
     font-size: 30px!important;
     border: 2px solid #3b533d!important;
     margin: 5px 10px!important;
@@ -94,7 +95,8 @@ html{
     padding: 21px 23px!important;
     width: 80px!important;
     height: 80px!important;
-    box-shadow: 2px 2px 4px 1px #959595!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
     font-size: 30px!important;
     border: 2px solid #3b533d!important;
     margin: 5px 10px!important;
