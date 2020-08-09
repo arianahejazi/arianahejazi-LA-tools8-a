@@ -102,7 +102,7 @@ body{
 
 
 .btn-danger,.btn-danger:hover,.btn-danger.active:focus,.btn-danger.active:active {
-  color: var(--white)!important;
+  color: var(--light-red)!important;
   background-color: var(--white)!important;
   border: 2px solid var(--light-red)!important;
 }
