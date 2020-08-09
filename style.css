@@ -18,8 +18,14 @@
   --red:#fd7a91;
 }
 
+
+
 html{
   scroll-behavior: smooth!important;
+}
+
+body{
+    font-family: sans-serif !important;
 }
 
 #content {
