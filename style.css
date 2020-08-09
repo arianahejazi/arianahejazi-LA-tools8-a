@@ -12,6 +12,7 @@
   --white : #ffffff;
   --light-black :#353535;
   --black: #000000;
+  --light-green-10: #edf9ec;
   --light-green:#b0e4b4;
   --dark-green:#3b533d;
   --light-red:#ffacaa;
@@ -105,6 +106,12 @@ body{
   color: var(--light-red)!important;
   background-color: var(--white)!important;
   border: 2px solid var(--light-red)!important;
+}
+
+.btn-success {
+  color: var(--light-green)!important;
+  background-color: var(--white)!important;
+  border: 2px solid var(--light-green)!important;
 }
 
 
