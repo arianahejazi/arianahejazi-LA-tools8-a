@@ -65,8 +65,8 @@ body{
   background: var(--white)!important;
 }
 .gap-dropdown{
+    margin: 0 3px!important;
     padding: 0!important;
-    margin: 0!important;
 }
 .dropdown-menu li{
   text-align: center!important;
