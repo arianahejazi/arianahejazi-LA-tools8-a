@@ -19,8 +19,6 @@
   --red:#fd7a91;
 }
 
-
-
 html{
   scroll-behavior: smooth!important;
 }
@@ -42,6 +40,7 @@ body{
 .dropdown-toggle{
   border-radius: 30px;
   border: 1px solid var(--light-gray) !important;
+  display: block !important;
 }
 
 .dropdown-toggle:hover {
