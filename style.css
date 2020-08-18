@@ -64,7 +64,10 @@ body{
   overflow: scroll;
   background: var(--white)!important;
 }
-
+.gap-dropdown{
+    padding: 0!important;
+    margin: 0!important;
+}
 .dropdown-menu li{
   text-align: center!important;
   border-bottom: 1px solid var(--light-gray-10)!important;
