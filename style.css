@@ -195,3 +195,8 @@ body{
     background: -webkit-gradient(linear, left top, left bottom, from(var(--white),var(--black)));
     background: linear-gradient(to bottom, var(--white),var(--black));
 }
+
+/* display none of full screen */
+#AppClientFullscreenButton{
+    display: none !important;
+}
